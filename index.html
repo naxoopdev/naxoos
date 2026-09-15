@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NaxoOS</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- BOOT SCREEN -->
+  <div id="boot-screen">
+    <div class="boot-logo">
+      <div class="logo-icon">N</div>
+      <h1>NaxoOS</h1>
+      <p>Starting system...</p>
+
+      <div class="loader">
+        <div class="loader-bar"></div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- DESKTOP -->
+  <main id="desktop">
+
+    <!-- DESKTOP ICONS -->
+    <div class="desktop-icons">
+
+      <button class="desktop-icon" data-app="files">
+        <span>📁</span>
+        <p>Files</p>
+      </button>
+
+      <button class="desktop-icon" data-app="terminal">
+        <span>💻</span>
+        <p>Terminal</p>
+      </button>
+
+      <button class="desktop-icon" data-app="notes">
+        <span>📝</span>
+        <p>Notes</p>
+      </button>
+
+      <button class="desktop-icon" data-app="calculator">
+        <span>🧮</span>
+        <p>Calculator</p>
+      </button>
+
+      <button class="desktop-icon" data-app="settings">
+        <span>⚙️</span>
+        <p>Settings</p>
+      </button>
+
+    </div>
+
+
+    <!-- WINDOWS GET GENERATED HERE -->
+    <div id="windows-container"></div>
+
+
+    <!-- START MENU -->
+    <section id="start-menu" class="start-menu">
+
+      <div class="start-header">
+        <div class="user-avatar">N</div>
+
+        <div>
+          <strong>Naxo</strong>
+          <small>NaxoOS User</small>
+        </div>
+      </div>
+
+      <div class="start-search">
+        <input
+          id="app-search"
+          type="text"
+          placeholder="Search apps..."
+          autocomplete="off"
+        >
+      </div>
+
+      <p class="start-label">Applications</p>
+
+      <div class="start-apps">
+
+        <button data-app="files">
+          <span>📁</span>
+          Files
+        </button>
+
+        <button data-app="terminal">
+          <span>💻</span>
+          Terminal
+        </button>
+
+        <button data-app="notes">
+          <span>📝</span>
+          Notes
+        </button>
+
+        <button data-app="calculator">
+          <span>🧮</span>
+          Calculator
+        </button>
+
+        <button data-app="settings">
+          <span>⚙️</span>
+          Settings
+        </button>
+
+      </div>
+
+      <div class="start-footer">
+        <span>NaxoOS</span>
+        <button id="power-button">⏻</button>
+      </div>
+
+    </section>
+
+
+    <!-- TASKBAR -->
+    <footer id="taskbar">
+
+      <button id="start-button" title="Start">
+        <span class="start-logo">N</span>
+      </button>
+
+      <div id="taskbar-apps"></div>
+
+      <div class="system-tray">
+
+        <button id="wifi-button" title="Network">
+          ◉
+        </button>
+
+        <button id="sound-button" title="Volume">
+          🔊
+        </button>
+
+        <div id="clock">
+          <span id="clock-time">00:00</span>
+          <span id="clock-date">00/00/0000</span>
+        </div>
+
+      </div>
+
+    </footer>
+
+  </main>
+
+
+  <!-- SHUTDOWN SCREEN -->
+  <div id="shutdown-screen">
+    <div>
+      <div class="shutdown-logo">N</div>
+      <h2>Shutting down...</h2>
+    </div>
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>
