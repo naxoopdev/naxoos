@@ -1,1 +1,37 @@
-# WebOS
+# 💻 NaxoOS
+
+NaxoOS is a lightweight WebOS built with HTML, CSS and JavaScript. It recreates the experience of a desktop operating system directly inside your browser.
+
+## ✨ Features
+
+- 🖥️ Interactive desktop environment
+- 🪟 Draggable and resizable application windows
+- 📁 Functional file explorer with folders and file previews
+- 💻 Built-in terminal
+- 📝 Notes application
+- 🧮 Calculator
+- ⚙️ System settings and wallpapers
+- 📶 Quick Settings with Wi-Fi and Bluetooth controls
+- 🔊 Volume controls
+- 🌙 Night Light mode
+- 🔔 Notification Center
+- 📅 Interactive calendar
+- 🔎 Application search
+- 🕐 Real-time clock and date
+- ⏻ Shutdown and restart system
+- 💾 Persistent settings using localStorage
+- 📱 Responsive interface
+
+## 🛠️ Built With
+
+- HTML
+- CSS
+- JavaScript
+
+## 🌐 Web Edition
+
+No installation is required. NaxoOS runs directly in a browser.
+
+---
+
+Made with ❤️ for the web.
